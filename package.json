@@ -1,7 +1,7 @@
 {
   "name": "@youcruit/nodemailer-rest-transport",
   "version": "0.0.3",
-  "description": "",
+  "description": "This is a transport layer between parcelvoy and a REST endpoint",
   "main": "dist/index.js",
   "scripts": {
     "dist": "npx rollup --config"
