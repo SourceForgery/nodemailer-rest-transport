@@ -46,7 +46,7 @@ export class RestTransport implements nodemailer.Transport {
                 if (!response.ok) {
                     throw new Error(`HTTP error! status: ${response.status}`)
                 }
-                callback(null, { ...response, messageId: response.id })
+                callback(null, { ...response, messageId: response })
 
             })
             .then(data => {

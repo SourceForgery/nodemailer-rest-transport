@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "module": "ES2015",
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "lib": ["es2017","dom"],
+    "moduleResolution": "node",
+    "removeComments": false,
+    "sourceMap": true,
+    "target": "es2018",
+    "outDir": "build/compiled",
+    "declaration": true,
+    "strict": true,
+    "noEmitOnError": true
+  },
+  "include": ["nodemailer-rest-transport.ts"]
+}
