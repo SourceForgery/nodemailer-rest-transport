@@ -1,6 +1,6 @@
 {
-  "name": "@youcruit/nodemailer-rest-transport",
-  "version": "0.0.3",
+  "name": "@sourceforgery/nodemailer-rest-transport",
+  "version": "0.0.4",
   "description": "This is a transport layer between parcelvoy and a REST endpoint",
   "main": "dist/index.js",
   "scripts": {
@@ -25,15 +25,15 @@
   },
   "homepage": "https://github.com/SourceForgery/nodemailer-rest-transport#readme",
   "dependencies": {
-    "nodemailer": "^6.9.13",
-    "rollup-plugin-typescript2": "0.36.0",
-    "tslib": "^2.6.2",
-    "typescript": "^5.4.5"
+    "nodemailer": "^6.9.13"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^25.0.7",
     "@rollup/plugin-node-resolve": "^15.2.3",
     "@types/nodemailer": "^6.4.15",
-    "rollup": "^4.17.1"
+    "rollup": "^4.17.1",
+    "rollup-plugin-typescript2": "0.36.0",
+    "tslib": "^2.6.2",
+    "typescript": "^5.4.5"
   }
 }
