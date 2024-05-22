@@ -8,7 +8,7 @@ const commonjs = require('@rollup/plugin-commonjs')
 // const typescript = require('@rollup/plugin-typescript')
 const config = [
     {
-        input: 'nodemailer-rest-transport.ts',
+        input: 'index.ts',
         output: {
             file: 'dist/index.js',
             format: 'cjs',
