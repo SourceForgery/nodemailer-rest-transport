@@ -1,6 +1,6 @@
 {
   "name": "@sourceforgery/nodemailer-rest-transport",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "This is a transport layer between parcelvoy and a REST endpoint",
   "main": "dist/index.js",
   "scripts": {
