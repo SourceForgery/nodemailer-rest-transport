@@ -5,13 +5,11 @@ export class RestTransport implements nodemailer.Transport {
     version: string
     private host: string
     private port: number
-    private api_key: string
 
     constructor(args:
-        {host: string, port: number, auth: { api_key: string}}) {
+        { host: string, port: number }) {
         this.host = args.host
         this.port = args.port
-        this.api_key = args.auth.api_key
         this.name = 'RestTransport'
         this.version = '5'
     }
